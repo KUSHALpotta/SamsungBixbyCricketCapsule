@@ -1,0 +1,5 @@
+action (GetCricketData) {
+  description (Fetches cricket series data)
+  type (Search)
+  output (CricketData)
+}

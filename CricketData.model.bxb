@@ -1,0 +1,8 @@
+structure (CricketData) {
+  description (Represents cricket series data)
+  property (series) {
+    type (Series)
+    min (Required) max (Many)
+    description (List of cricket series)
+  }
+}

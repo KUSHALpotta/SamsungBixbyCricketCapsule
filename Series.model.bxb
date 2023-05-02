@@ -1,0 +1,13 @@
+structure (Series) {
+  description (Represents a cricket series)
+  property (id) {
+    type (core.Text)
+    min (Required) max (One)
+    description (The unique ID of the cricket series)
+  }
+  // property (name) {
+  //   type (core.Text)
+  //   min (Required) max (One)
+  //   description (The name of the cricket series)
+  // }
+}
